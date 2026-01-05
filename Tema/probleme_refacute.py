@@ -1,3 +1,4 @@
+
 # 11.
 var1 = int(input("Introduce numar1: "))
 var2 = int(input("Introduce numar2: "))
@@ -67,4 +68,10 @@ else:
 # 33.
 numere_text = input("Numere: ")
 numere_str = numere_text.split(",")
-numere = []
+numere_adunate = 0
+numere = [int(numar) for numar in numere_str]
+for numar in numere:
+    numere_adunate += numar
+print(numere_adunate)
+medie = numere_adunate / len(numere)
+print("Media numerelor este: ", medie)

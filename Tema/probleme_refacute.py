@@ -72,6 +72,5 @@ numere_adunate = 0
 numere = [int(numar) for numar in numere_str]
 for numar in numere:
     numere_adunate += numar
-print(numere_adunate)
 medie = numere_adunate / len(numere)
 print("Media numerelor este: ", medie)

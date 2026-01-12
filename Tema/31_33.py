@@ -23,7 +23,7 @@ print(text_inversat)
 
 # 33
 numere_text = input("Numere: ")
-numere_str = numere_text.split
+numere_str = numere_text.split(",")
 numere = [int(numar) for numar in numere_str]
 medie = sum(numere) / len(numere)
 print("Media numerelor este: ", medie)

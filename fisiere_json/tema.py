@@ -109,9 +109,9 @@ Convertește fisierele json in care sunt salvate informatiile despre elevii de l
 # Afiseaza elevii cu cea mai mare medie din fiecare clasa
 # Convertește fisierele csv in care sunt salvate informatiile despre elevii de la Filologie in fisiere json.
 # Convertește fisierele json in care sunt salvate informatiile despre elevii de la Mate-Info in fisiere csv.
+import os
 import csv
 import json
-import os
 
 
 def ia_media(element):
@@ -206,7 +206,7 @@ def csv_to_json(source_folder, output_folder):
                 output_folder, file_name.replace('.csv', '.json'))
 
             with open(csv_path, 'r', encoding='utf-8') as f:
-                # DictReader automatically uses the header row as keys
+
                 data = list(csv.DictReader(f))
 
             with open(json_path, 'w', encoding='utf-8') as f:
@@ -230,8 +230,7 @@ def json_to_csv(source_folder, output_folder):
             with open(json_path, 'r', encoding='utf-8') as f:
                 data = json.load(f)
 
-            if data:  # Ensure file isn't empty
-                # Use keys from the first dictionary as headers
+            if data:
                 headers = data[0].keys()
 
                 with open(csv_path, 'w', encoding='utf-8', newline='') as f:
@@ -241,7 +240,6 @@ def json_to_csv(source_folder, output_folder):
                 print(f"Converted {file_name} to CSV")
 
 
-# Usage
 json_to_csv('ClasaB', 'ClasaB_CSV')
 
 

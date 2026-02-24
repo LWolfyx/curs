@@ -1,0 +1,20 @@
+[
+    {
+        "Nume": "Grigore Moisil",
+        "Istorie": 99,
+        "Informatica": 100,
+        "Romana": 98
+    },
+    {
+        "Nume": "Dinu Lipatti",
+        "Istorie": 74,
+        "Informatica": 65,
+        "Romana": 70
+    },
+    {
+        "Nume": "Anghel Saligny",
+        "Istorie": 81,
+        "Informatica": 90,
+        "Romana": 85
+    }
+]

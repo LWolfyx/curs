@@ -1,0 +1,6 @@
+Acesta este un fisier de test.
+Contine mai multe linii de text.
+Scopul este de a numara linii, cuvinte si caractere.
+Aceasta este o linie suplimentara pentru testare.
+Inca o linie pentru a verifica functionalitatea programului.
+Ultima linie din fisier.

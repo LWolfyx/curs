@@ -1,0 +1,20 @@
+[
+    {
+        "Nume": "George Palade",
+        "Istorie": 100,
+        "Informatica": 100,
+        "Romana": 100
+    },
+    {
+        "Nume": "Nicolae Paulescu",
+        "Istorie": 83,
+        "Informatica": 85,
+        "Romana": 90
+    },
+    {
+        "Nume": "Ana Aslan",
+        "Istorie": 72,
+        "Informatica": 68,
+        "Romana": 80
+    }
+]

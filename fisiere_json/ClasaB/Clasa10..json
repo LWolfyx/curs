@@ -1,0 +1,20 @@
+[
+    {
+        "Nume": "Spiru Haret",
+        "Istorie": 92,
+        "Informatica": 95,
+        "Romana": 90
+    },
+    {
+        "Nume": "Henri Coandă",
+        "Istorie": 80,
+        "Informatica": 75,
+        "Romana": 88
+    },
+    {
+        "Nume": "Traian Vuia",
+        "Istorie": 85,
+        "Informatica": 80,
+        "Romana": 90
+    }
+]
